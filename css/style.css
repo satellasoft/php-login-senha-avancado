@@ -1,0 +1,184 @@
+*{
+    margin:0 auto;
+    padding:0;
+}
+
+body{
+    background-color: #111;
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color:#111;
+    font-family: verdana;
+    font-size: 16px;
+}
+
+a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+
+
+/*Login*/
+.centerLogin{
+    width: 500px;
+    height: auto;
+    margin-top: 150px;
+    border:3px solid royalblue;
+    border-radius:3px;
+    background-color: #FFF;
+}
+
+.logoLogin{
+    background-color: #eee;
+    border-bottom: 3px solid #111;
+}
+
+.logoLogin img{
+    margin: 10px;
+    border:none;
+}
+
+.formularioLogin{
+    width:450px;
+    min-height: 35px;
+    border:1px solid #111;
+    margin-top:10px;
+}
+
+.formularioLogin img{
+    width:30px;
+    height:30px;
+    margin:5px;
+    vertical-align: middle;
+}
+
+.formularioLogin input{
+    outline: none;
+    border:none;
+    width:390px;
+    padding:5px;
+    font-family: verdana;
+    font-size: 18px;
+}
+
+.btnSubmitLogin{
+    width:100px;
+    padding:5px;
+    font-family: verdana;
+    font-size: 18px;
+    background-color: #ee457d;
+    border:none;
+    margin:10px;
+    margin-left: 25px;
+    color:#FFF;
+    cursor: pointer;
+    outline:none;
+}
+
+.btnSubmitLogin:hover{
+    background-color: #ee8d45;
+}
+
+/*Cadastrar*/
+.dvCadastro{
+    width: 500px;
+    height: auto;
+    margin-top: 150px;
+    border:3px solid royalblue;
+    border-radius:3px;
+    background-color: #FFF;
+    font-family: verdana;
+    font-size:16px;
+}
+
+.dvCadastro input, select{
+    outline-color:red;
+    width:380px;
+    padding:5px;
+    font-family: verdana;
+}
+
+.btnSubmit{
+    max-width: 100px;
+    width:100%;
+    padding:5px;
+    font-family: verdana;
+    font-size: 18px;
+    background-color: #ee457d;
+    border:none;
+    margin:10px;
+    color:#FFF;
+    cursor: pointer;
+    outline:none;
+}
+
+.btnSubmit:hover{
+    background-color: #ee8d45;
+}
+
+/*Painel*/
+.dvCentro{
+    width:1028px;
+    background-color: #FFF;
+    min-height: 600px;
+    border-left:3px solid #111;
+    border-right:3px solid #111;
+}
+
+.dvCentro p{
+    padding:10px;
+    text-align:justify;
+}
+
+.imgLogout{
+    float:right;
+    width:32px;
+    height:32px;
+    border:none;
+}
+
+.dvTopo{
+    background-color: #eee;
+    border-bottom: 3px solid #111;
+}
+
+.dvTopo img{
+    margin:10px;
+}
+
+/*Recuperar senha*/
+
+.dvRecuperarSenha{
+    width: 500px;
+    height: auto;
+    margin-top: 150px;
+    border:3px solid royalblue;
+    border-radius:3px;
+    background-color: #FFF;
+    padding:10px;
+}
+
+.inputForm{
+    outline-color:red;
+    width:380px;
+    padding:5px;
+    font-family: verdana;
+}
+
+/*Redefinir Senha */
+
+.dvRedefinirSenha{
+    width: 500px;
+    height: auto;
+    margin-top: 150px;
+    border:3px solid royalblue;
+    border-radius:3px;
+    background-color: #FFF;
+    padding:10px;
+}
